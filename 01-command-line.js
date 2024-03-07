@@ -1,0 +1,38 @@
+
+            /********Command Line**********/
+
+    //Diving in
+        // --> Terminal and Command line
+        // --> Vim
+        // --> Shells
+
+        
+// --> Terminal and Command line
+
+    /*
+        * ls = list directory contents
+        * cd = change directory 
+        * mkdir = Make directory 
+        * rmdir = Remove directory 
+        
+         
+        * cat = Show file contents
+        * man = command manual
+        * less = Show file content by page
+        * touch = creates an Empty File
+        * rm = remove File
+        * echo = repeat input
+
+    */
+
+//Exercise  
+/*
+    1.Navigate to your home directory
+    2.Make a new Directory called "temp"
+    3.Move into temp
+    4.List the directory contents
+    5.Make a file called "hello"
+    6.List the directory contents
+    7.Move out of temp
+    8.Delete temp
+*/
