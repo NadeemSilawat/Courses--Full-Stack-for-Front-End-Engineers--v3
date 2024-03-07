@@ -46,3 +46,40 @@
     4. ctrl + c = Exit program
     5. cd ~ = navigate to home directory
 */
+
+
+
+            /******** VIM **********/
+
+/*
+    insert mode         -          Text Editing
+
+    normal mode         -           Primary mode
+
+    command mode        -           Searching , Saving , Exiting
+
+*/            
+
+/*                                  
+                                                [Save and Exit :wq]
+
+    insert mode         -          i
+
+    normal mode         -          ESC
+
+    command mode        -           :
+
+*/            
+
+//Exercise 
+
+/*
+    1.Navigate to your home directory
+    2.Make a directory called "temp"
+    3.Open a file named "test" with vi
+    4.Write a few lines
+    5.Save and Exit
+*/
+
+// ESC  :q!
+
