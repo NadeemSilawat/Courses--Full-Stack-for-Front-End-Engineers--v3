@@ -36,3 +36,13 @@
     7.Move out of temp
     8.Delete temp
 */
+
+// In case you get lost
+
+/*
+    1. cd.. = Move up one directory
+    2. pwd = print working directory
+    3. clear = clear terminal output
+    4. ctrl + c = Exit program
+    5. cd ~ = navigate to home directory
+*/
