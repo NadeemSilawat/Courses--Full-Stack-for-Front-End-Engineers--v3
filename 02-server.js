@@ -17,8 +17,8 @@
 
     /*
         const http = require("http");
-        const fs = require('fs');
-        consr PORT = 3000;
+        const fs = require('fs');       ---> fs - file system
+        const PORT = 3000;
 
         const server = http.createServer(function (req, res) {
             res.writeHead(200, {'content-type': 'text/html'});
