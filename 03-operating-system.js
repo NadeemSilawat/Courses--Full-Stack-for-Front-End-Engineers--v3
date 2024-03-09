@@ -22,4 +22,10 @@
         */
 
 
-        
+// What is Hashing?
+    //Hashing algorithms are One-ways while encryption algorithms are two-ways..
+
+
+// openssl(OPENSSL):- openssl is a cryptography toolkit implementing the TLS(Transport Layer Security)  
+
+
