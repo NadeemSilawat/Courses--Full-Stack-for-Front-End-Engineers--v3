@@ -29,3 +29,13 @@
 // openssl(OPENSSL):- openssl is a cryptography toolkit implementing the TLS(Transport Layer Security)  
 
 
+// command
+    /*
+        ~ temp openssl md5 foo | awk 
+        ~ temp openssl md5 foo | awk -F'{print $2}' 
+        ~ temp openssl md5 foo 
+            // MD5(foo)= 286755fad04869ca523320acce0dc6a4
+    */
+
+
+            
