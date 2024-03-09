@@ -35,5 +35,19 @@
         // Save it as index.html
         
     */ 
+
+                /******* Server Management *******/
+
+
+// Cloud Computing
+
+        /*
+            Virtulization : Dividing a Server resourses into virtual computer
+            Virtual Machine : Digital Version of a  physical computer
+            VPS : Virtual Private Server.
+        */
    
         
+                /******** Buying a VPS **********/
+
+    
