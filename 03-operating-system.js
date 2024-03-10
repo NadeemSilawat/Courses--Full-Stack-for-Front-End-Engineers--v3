@@ -146,7 +146,18 @@
     */
 
            
+    /*
+        1. Make sure Keychain is active
+            vi ~/.ssh/config
+        2. Add private key to keychain
+            ssh-add --apple-use-keychain fsfe
 
+
+                Host *
+                 AddkeysToAgent yes
+                 UseKeychain  yes
+
+    */
 
 
 
