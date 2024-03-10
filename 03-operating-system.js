@@ -65,4 +65,94 @@
     //Since hashing is one-way, Ransomware typically uses encryption algorithms which are two-way
 
 
+        // SSH Key Pair
+// 1. Public Key    2. Private Key
+
+
+    /*
+    your Computer                       Server
+    --------------                    ------------
+    Private Key     <------------      Public Key
+                    ------------>  
+    Password        <------------      Encrypted
+    */
+
+
+
+
+//Exercise 
+    /*
+        SSH key
+       -----------
+       
+            1. Move into the ~./ssh directory
+            2. Genrate a key using ssh-keygen
+            3. Nmae your key "fsfe"
+    */    
+
+
+//Command
+    /*
+        ~ temp cd ~/.sssh   
+        ~ ssh  ls
+        ~ ssh  ssh-keygen          ---> ssh key genrate fsfe is name
+        ~ ssh  cat  fsfe          -----> show private key
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            QyNTUxOQAAACBPtjHdW03Y6cFVei5W0fzu60oS3FlyTynJ0HJi8euxpgAAAJi4o00guKNN
+            IAAAAAtzc2gtZWQyNTUxOQAAACBPtjHdW03Y6cFVei5W0fzu60oS3FlyTynJ0HJi8euxpg
+            AAAEC9LEh8Qad3vZnSO4SHiHHdivLTbejZ8+LFEbiv35lWwk+2Md1bTdjpwVV6LlbR/O7r
+            ShLcWXJPKcnQcmLx67GmAAAAFGRlbGxAREVTS1RPUC03NTFJTk01AQ==
+            -----END OPENSSH PRIVATE KEY-----
+        ~ ssh  cat fsfe.pub          ----> show public key
+        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE+2Md1bTdjpwVV6LlbR/O7rShLcWXJPKcnQcmLx67Gm dell@DESKTOP-751INM5
+
+        ~ ssh ls | grep fsfe
+            fsfe    
+            fsfe.pub
+    */
+
+
+    /*
+        1. Move into the ~/.ssh directory
+            cd ~/.ssh
+        2. Genrate a key using ssh-keygen
+            ssh-keygen
+    */
+
+
+
+    /*
+        -> .ssh ls | grep fsfe
+        fsfe   <------------------      private Key 
+        fsfe.pub  <---------------      Public Key
+
+        1. Copy the public key into Digital Ocean
+        2. Finish setting up the server
+    */     
+
+    
+// Exercise Login 
+//         --------
+
+
+    /*
+        1. ssh into your server
+            ssh root@<your_IP>
+        2. ssh into your server your private key 
+            ssh -i ~/.ssh/fsfe root<your_IP>            
+        3. Exit your sever
+            exit
+    */
+
+           
+
+
+
+
+
+
+         
+
+    
     
