@@ -51,4 +51,18 @@
     */        
             
 
-        
+// Hashing + Salt
+
+    /*
+        INPUT + SALT + HASH FUNCTION  =  SALTED HASH
+
+        ./FOO + SALT + SHA1           =  ??
+    */
+
+// Note : sha256 or something more complex would be better than md5    
+
+//What is Ransomware?
+    //Since hashing is one-way, Ransomware typically uses encryption algorithms which are two-way
+
+
+    
