@@ -40,4 +40,14 @@
 
     */
 
-        
+     /*
+        IP - Internet Protocl
+
+        IP Address - numerical label assigned to  an internet connected device.
+
+                IPv34                       IPv6
+                0.0.0.0                   2001:db8::ff00:4288   
+
+     */   
+
+                
