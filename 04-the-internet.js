@@ -77,3 +77,25 @@
 
           Packet  - unit of data transmitted over a network
         */
+
+// How to internet works
+
+    /*  
+           TCP/IP 
+             _ _ _ -> google.com _ _ _ _ 
+            /                           \
+       [PC]/                             \[Server]
+    127.0.0.1                                  ??
+
+    */
+
+//Terminology 
+
+    /*
+        DNS - domain name server
+
+        Nameserver - hold DNS records to translate
+                    domain names into IP addresses
+    */
+
+                    
