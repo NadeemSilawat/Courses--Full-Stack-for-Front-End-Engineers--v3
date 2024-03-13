@@ -51,3 +51,29 @@
      */   
 
                 
+
+// Exercise : Network Tool
+
+        /*
+            1. Check status of a network host
+                ping google.com
+            
+            2. Follow the path of your request
+                traceroute google.com
+
+            3. Show network status
+                netstat -lt | less                
+        */
+
+
+                // Internet & Networking Terminology
+            
+        /*
+          TCP - transmission contrl protocol
+            
+          UDP - User datagram protocol
+
+          ICMP - internet control message protocol
+
+          Packet  - unit of data transmitted over a network
+        */
