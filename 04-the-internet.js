@@ -123,3 +123,22 @@
             Chrome - chrome://net-internet/#dns
             Firfox - about:networking#dns
     */
+
+
+// Antonomy of a URL
+
+        /*
+        
+                                URL - uniform resource locator
+
+                blog.yourdomain.com/en/fulllstack?test=true                                
+        
+            * blog.yourdomain.com - subdomain
+            * yourdomain.com    - domain
+            * .com   - tld
+            * /en/fullstack?   - Path
+            * test=true - query parameter
+
+        
+        
+        */
