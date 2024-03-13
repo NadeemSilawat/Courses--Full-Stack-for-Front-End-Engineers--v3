@@ -98,4 +98,28 @@
                     domain names into IP addresses
     */
 
-                    
+
+
+// DNS records
+
+    /*
+        A record - maps name to IP adress
+
+        CNAME - maps name to name
+    */
+
+
+// Exercise - DNS
+
+    /*
+        1. Lookup the nameservers for an domain
+            nslookup frontendmasters.com
+        
+        2. Lookup the DNS records for a domain
+            dig frontendmaster.com
+
+
+            View browser DNS cache
+            Chrome - chrome://net-internet/#dns
+            Firfox - about:networking#dns
+    */
