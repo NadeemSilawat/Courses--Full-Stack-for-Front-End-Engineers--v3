@@ -137,8 +137,8 @@
             * yourdomain.com    - domain
             * .com   - tld
             * /en/fullstack?   - Path
-            * test=true - query parameter
+            * test=true - query paramete
+        */
+
 
         
-        
-        */
