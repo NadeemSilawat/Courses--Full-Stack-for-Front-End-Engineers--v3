@@ -164,3 +164,15 @@
 */
 
 
+
+//Brand new server
+
+        /*
+            1. Update software
+            2. Restart your server
+            3. Create a new user
+            4. Make that user a superuser
+            5. Enable login for new user
+            6. Disable root login
+        */
+
