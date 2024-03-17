@@ -140,5 +140,27 @@
             * test=true - query paramete
         */
 
+    
+//Buying a Domain
+        /*
+            1. Buy a domain with a register 
+                a. Update the nameserver to use Digital Ocean
+            2. On Digital Ocean, add two A record with your IP Address
+                * @
+                * www
 
-        
+        */                
+
+
+
+                                    /************ Server Setup *****************/
+
+/*
+    Topics : 
+
+    1. Server setup
+    2. Web Servers
+    3. NodeJS
+*/
+
+
