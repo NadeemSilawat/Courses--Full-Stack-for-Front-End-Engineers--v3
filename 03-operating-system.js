@@ -98,14 +98,14 @@
         ~ ssh  ssh-keygen          ---> ssh key genrate fsfe is name
         ~ ssh  cat  fsfe          -----> show private key
             -----BEGIN OPENSSH PRIVATE KEY-----
-            b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+            dommykeyjhdfhyu6777c8jjn008095mnkhjasdmmnbnjd=i884651132vhgd5233hjssabc=
             QyNTUxOQAAACBPtjHdW03Y6cFVei5W0fzu60oS3FlyTynJ0HJi8euxpgAAAJi4o00guKNN
             IAAAAAtzc2gtZWQyNTUxOQAAACBPtjHdW03Y6cFVei5W0fzu60oS3FlyTynJ0HJi8euxpg
             AAAEC9LEh8Qad3vZnSO4SHiHHdivLTbejZ8+LFEbiv35lWwk+2Md1bTdjpwVV6LlbR/O7r
             ShLcWXJPKcnQcmLx67GmAAAAFGRlbGxAREVTS1RPUC03NTFJTk01AQ==
             -----END OPENSSH PRIVATE KEY-----
         ~ ssh  cat fsfe.pub          ----> show public key
-        ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE+2Md1bTdjpwVV6LlbR/O7rShLcWXJPKcnQcmLx67Gm dell@DESKTOP-751INM5
+        ssh-ed25519 AAAAC3NzaCL88XCDlZDI1NTE5AAAAIE+2Md1bTdjpwVV6LlbR/O7rShLcWXJPKcnQcmLx7667Gm dell@DESKTOP-751INM5
 
         ~ ssh ls | grep fsfe
             fsfe    
