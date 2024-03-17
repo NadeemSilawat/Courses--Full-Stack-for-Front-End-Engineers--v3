@@ -217,5 +217,18 @@
                     
                 4. Cheak sudo access
                     sudo cat /var/log/auth.log
-                                        
+
+            */
+
+// Enable login as new user
+
+            /*
+                1. Create authorized_key file
+                    ~/.ssh/authorized_keys
+
+                2. Paste your public key 
+                3. Exit
+                4. Login with new user
+                
+                    ssh <your_username>@<your_IP>
             */
