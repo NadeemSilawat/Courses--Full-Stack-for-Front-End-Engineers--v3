@@ -190,5 +190,32 @@
         */  
 
 
+//commands
+    //sudo 
 
-                
+            /*
+                root - highest permission level.
+                    Allows unrestricted access to the OS
+
+                sudo - super user do. Allows you to
+                    run command and programs as root                    
+            */
+
+
+
+// Creating and updating users
+            
+            /*
+                1. Create a new user
+                    adduser <your_username>
+                    
+                2. Add user to "sudo" group
+                    usermod -aG sudo <your_username>
+                    
+                3. Switch user
+                    su <your_username>
+                    
+                4. Cheak sudo access
+                    sudo cat /var/log/auth.log
+                                        
+            */
