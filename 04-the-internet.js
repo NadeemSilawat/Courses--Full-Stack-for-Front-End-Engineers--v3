@@ -176,3 +176,19 @@
             6. Disable root login
         */
 
+
+
+// Updating  and restarting
+        
+        /*
+            1. ssh into your server
+            2. update software
+                apt update 
+                apt upgrade
+            3. restart the server
+                shutdown now -r
+        */  
+
+
+
+                
