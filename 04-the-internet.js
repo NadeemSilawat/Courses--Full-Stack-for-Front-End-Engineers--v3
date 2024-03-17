@@ -232,3 +232,20 @@
                 
                     ssh <your_username>@<your_IP>
             */
+
+
+// Security 
+
+        /*
+        
+            1. Change file premission
+                chmod 644 ~/.ssh/authorized_keys
+            2. Disable root login 
+                sudo vi /etc/ssh/sshd_config
+            3. Restart ssh daemon
+                sudo service sshd restart
+
+        */
+
+
+                
