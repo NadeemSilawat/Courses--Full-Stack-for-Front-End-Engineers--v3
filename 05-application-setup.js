@@ -30,3 +30,18 @@
                  
 */        
 
+
+
+
+
+/*
+                                                        Server
+                   __server__                           
+                   |         |
+    request        |         |                          Appliction        
+--------------->   |         |-----> Nginx ----->  
+                   |_________|
+                                                        Database
+                 
+*/        
+
