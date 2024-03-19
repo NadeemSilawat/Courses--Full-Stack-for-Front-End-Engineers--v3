@@ -69,4 +69,30 @@
                         less /etc/nginx/sites-availabe/default
         */                
 
-                        
+
+
+// Nginx configuration
+
+        /*
+            root /var/www.html;  <------------  base directory for requests
+            
+            # Add index.php to the list if you are using PHP           
+            index index.html index.htm index.nginx-debian.html;       ----------> html defaults
+
+            server_name_;
+
+            location / {    <------------ location block
+                # First attempt to serve request  as file, then 
+                # as directory, then fall back to displaying a 404.
+                try_files $uri $uri/ =404;
+            }        /|\
+                      |
+                    directive                 
+        */      
+
+
+
+       /*
+            Create and edit default page
+                sudo vi /var/www/html/index.html
+       */             
