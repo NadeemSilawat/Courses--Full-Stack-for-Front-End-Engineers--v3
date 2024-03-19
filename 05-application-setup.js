@@ -11,4 +11,22 @@
 
         // * Apache  * Nginx
 
-        
+
+        /**
+                * Web Server
+                * Reverse proxy                        Nginx
+                * Forward proxy                      (engine-x)
+         * */        
+
+
+/*
+                                                Server
+                   __server__                           
+                   |         |
+    request        |         |                  Appliction        
+--------------->   |         |  
+                   |_________|
+                                                Database
+                 
+*/        
+
