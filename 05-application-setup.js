@@ -93,6 +93,39 @@
 
 
        /*
-            Create and edit default page
-                sudo vi /var/www/html/index.html
+        ---->   Create and edit default page
+                    sudo vi /var/www/html/index.html
        */             
+
+
+                        /******** Application setup *********/  
+
+// Exercise Appliction setup
+
+        
+            /*
+                Node.js
+
+              request
+            ---------->  Server ----> nginx  -----> Node.js
+
+            */
+        
+
+            /*
+                1. Establish apllication file system
+                2. Enable version control
+                3. Create a node.js server
+            */
+
+
+            /*
+                1. Change ownership of /www
+                        sudo chown -R $USER:$USER /var/www
+
+                2. Make an appliication directory
+                        mkdir /var/www/app
+
+                3. Initalize empty git repo in /app
+                        git init
+             */
