@@ -45,3 +45,28 @@
                  
 */        
 
+
+
+
+// Exercise Nginx
+
+        /*
+           Nginx
+
+                1. Install nginx
+                   sudo apt install nginx
+
+                2. Start nginx
+                   sudo service nginx start
+
+                3. Navigate to your server in the browser.
+        
+        
+        */
+
+        /*
+                --> View default nginx configuration
+                        less /etc/nginx/sites-availabe/default
+        */                
+
+                        
