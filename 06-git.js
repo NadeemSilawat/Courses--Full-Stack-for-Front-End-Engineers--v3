@@ -46,3 +46,21 @@
 
 
 
+// In case you get stuck
+
+        /*Note
+                1.Stop running process
+                   --> pkill <process>
+                
+                2. Test your ssh connection
+                   --> ssh -vT git@github.com
+
+                3. Save a readonly file in vim
+                   --> :w !sudo tee %
+                   
+                4. View permission as numbers
+                   --> stat -c %a <file_name>
+        */
+
+
+                   
