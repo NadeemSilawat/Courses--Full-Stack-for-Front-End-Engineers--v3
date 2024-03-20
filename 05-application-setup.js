@@ -129,3 +129,73 @@
                 3. Initalize empty git repo in /app
                         git init
              */
+
+            /*
+                1. Create app file
+                        touch app.js
+                2. initialize project 
+                        npm init
+
+                3. Create a basic node server in app.js
+                4. Start your application 
+            */
+
+// Basic node server
+        
+            /*
+                const http = require("http");
+
+                http.createServer(function (res,req){
+                        res.write("On the way to being a full stack engineer!");
+                        res.end();
+                }).listen(3000);
+
+                console.log("Server started on port 3000");
+
+            */
+
+
+
+              /*
+                proxy pass
+               --------------
+               
+                        location /{
+                                proxy_pass URL_TO_PROXY_TO
+                        }
+                
+                        ----------------------
+
+                        * create a new nginx server and proxy requests
+                                sudo vi /etc/nginx/sites-enable/fsfe
+                        
+                        ------------------------
+                        
+                        server{
+                                listen80 default_server;
+                                listen [::]:80 default_server;
+
+                                root /var/www/html;
+                                index index.html;
+
+                                server_name <your_domain>;
+
+                                location /{
+                                        proxy_pass http://127.0.0.1:3000/;
+                                }
+                        }
+
+                        -------------------------
+
+                        * Point nginx to server
+                                sudo vi /etc/nginx/nginx.conf   
+
+
+                        ##
+                        # Virtual Host Configs
+                        ##
+
+                        include /etc/nginx/conf.d/*.conf;
+                        include /etc/nginx/sites-enabled/fsfe
+
+              */
