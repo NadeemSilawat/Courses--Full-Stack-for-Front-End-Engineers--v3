@@ -62,5 +62,4 @@
                    --> stat -c %a <file_name>
         */
 
-
-                   
+                
