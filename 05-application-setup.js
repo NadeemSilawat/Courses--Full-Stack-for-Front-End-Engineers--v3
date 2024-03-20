@@ -184,8 +184,8 @@
                                         proxy_pass http://127.0.0.1:3000/;
                                 }
                         }
-
-                        -------------------------
+                                
+                        --------Virtual server-----------------
 
                         * Point nginx to server
                                 sudo vi /etc/nginx/nginx.conf   
@@ -199,3 +199,27 @@
                         include /etc/nginx/sites-enabled/fsfe
 
               */
+
+                        /********** Virtual Server & PM2 *************/
+//Application setup
+
+                /*
+                        * Validation nginx configruration
+                                sudo nginx -t
+                        * Resatart nginx
+                                sudo service nginx restart
+                */
+
+// PM2 -> Process Manager 
+                /*
+                        1. install PM2
+                                sudo npm i -g pm2
+                        2. Start PM2
+                                pm2 start app.js -watch
+
+                        3. Setup auto restart
+                                pm2 save
+                                pm2 startup
+                */
+
+                                //END
