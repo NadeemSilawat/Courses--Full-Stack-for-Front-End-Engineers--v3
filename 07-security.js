@@ -78,6 +78,27 @@
                         http 
                         https
               $ufw allow ssh
-                   deny 
+                   deny         // Jem meant to say "Deny" will silently reject you.
                    reject     
+*/
+
+
+/*
+        1. cheack firewall status
+            sudo ufw status
+
+        2. Allow ssh
+            sudo ufw allow ssh
+
+        3. Allow http 
+            sudo ufw allow http
+
+        4. Enable firewall
+            sudo ufw enable 
+          
+            
+          How would you create a ufw rule
+          to block all HTTP connections?  
+
+          sudo ufw reject http
 */
