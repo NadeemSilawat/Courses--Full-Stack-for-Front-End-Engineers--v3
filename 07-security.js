@@ -102,3 +102,26 @@
 
           sudo ufw reject http
 */
+
+
+// Permissions
+
+        /*
+                owner       group       enveryone else
+               -------     ------       ---------------
+                rwx         rwx             rwx
+
+                                                        read    4
+                                                        write   2
+                                                        execute 1
+        */
+
+
+// Exercise Application updates
+
+            /*
+                    * install unattended upgrades
+                        sudo apt-get install unattended-upgrades
+                    * Enable upgrades 
+                        sudo  dpkg-reconfigure --priority=low unattended-upgrades
+            */
