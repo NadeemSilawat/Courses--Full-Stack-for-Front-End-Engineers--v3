@@ -57,7 +57,7 @@
                         nmap -sV <your_server_ip>
                 */
 
-
+                        // Firewall & UFW
 
 // What is Firewall ?
             /*
@@ -66,4 +66,18 @@
                 traffic and decides whether to allow or block specific traffic 
                 based on a defined set of security rules.
 
-            */                        
+            */      
+           
+//ufw --> uncomplicated firewall
+
+
+/*
+  Firewall
+        command
+
+                        http 
+                        https
+              $ufw allow ssh
+                   deny 
+                   reject     
+*/
