@@ -69,3 +69,10 @@
 
                 /****Logging, Stream, & Redirection ***/
 
+
+/*
+    * Logs and how to read them 
+    * Standard streams
+    * Redirection
+    * Finding things
+*/
