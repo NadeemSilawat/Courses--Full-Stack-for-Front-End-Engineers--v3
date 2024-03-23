@@ -23,3 +23,33 @@
        Continuous deployment -> Builds are automatically deployed 
                                 to production enviroments.                                
     */                        
+
+
+                               
+// https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
+
+
+/*
+    cron 
+   -------
+
+   cron -> executes command on a schedule
+
+   ------> 0 10 * * 1-5 sh./myscript.sh
+        "Run./myscript.sh at 10:00 in every day-of-week
+        from Monday through Friday."
+
+        Shell Scripting
+       -----------------
+       
+       #! /user/bin/bash
+
+       now =$(date + "%r")
+       read -p "What is your name> " name
+       echo "The time is &now. Have a wonderful day $name"
+
+       What is your name? Jem
+       The time is 05:03:04 AM. Have a wonderful day Jem
+       
+*/
+
