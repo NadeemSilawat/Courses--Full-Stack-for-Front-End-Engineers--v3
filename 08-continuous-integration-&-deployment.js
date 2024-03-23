@@ -1,6 +1,6 @@
 
 /*
-    1. CL/CD
+    1. CI/CD
     2.Shell scripting
     3. Cron
 
@@ -8,10 +8,10 @@
 
 
 
-                        /******** CL/CD **********/
+                        /******** CI/CD **********/
 
     /*
-        CL/CD
+        CI/CD
        --------
        
        Continuous integration -> Code changes are validated and merged back into
@@ -53,7 +53,7 @@
 
 */
 
-// Exercise -> Fake CL/CD 
+// Exercise -> Fake CI/CD 
 
         /*
               1. Create a bash script that git pulls from main branch.
@@ -76,3 +76,6 @@
     * Redirection
     * Finding things
 */
+
+
+
