@@ -50,6 +50,22 @@
 
        What is your name? Jem
        The time is 05:03:04 AM. Have a wonderful day Jem
-       
+
 */
+
+// Exercise -> Fake CL/CD 
+
+        /*
+              1. Create a bash script that git pulls from main branch.
+              2. Creaet a crob job to execute script every 2 minutes
+              
+                                            #! <location of bash>
+                                            <command to run>
+
+                                      --> Shows location of bash shell       
+                                            which bash
+        */  
+
+
+                /****Logging, Stream, & Redirection ***/
 
