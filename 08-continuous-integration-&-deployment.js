@@ -22,8 +22,31 @@
 
        Continuous deployment -> Builds are automatically deployed 
                                 to production enviroments.                                
-    */                        
+    */            
 
+   
+// continuous delivery :-
+
+/*
+   * means automatic
+    # means manual 
+
+    *BUILDS----*TEST-----*ACCEPTANCE-----*DEPLOY TO |   #DEPLOY TO ---> *SMOKE TESTS
+                            TEST            STAGING     PRODUCTION
+
+
+    // continuous deployment :-
+
+    *BUILDS----*TEST-----*ACCEPTANCE-----*DEPLOY TO-----*DEPLOY TO ---> *SMOKE TESTS
+                            TEST            STAGING     PRODUCTION 
+
+*/
+
+/*
+website :- SPINNAKER => spin up 500 clusters, with a button and they are all configured correctly exactly the same, there's a load balancer setup. it does so much work for us,
+    NETFLIX runs on Spinnaker.
+    its for create personal project.
+*/    
 
                                
 // https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment
