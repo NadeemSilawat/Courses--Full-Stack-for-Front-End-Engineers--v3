@@ -102,3 +102,52 @@ website :- SPINNAKER => spin up 500 clusters, with a button and they are all con
 
 
 
+/*
+    var/log/
+     
+
+            * syslog
+            * auth.log
+            * nginx/access.log
+            
+    tail -> Output the last part of a file.
+    head -> Output the First part of a file.
+    less -> Output One Page at time.
+    cat  -> Output entire file.
+
+    ---> follow the output of a file 
+            tail -f
+
+*/
+
+/*
+    Starndard Streams
+
+
+                * standard output 
+                    stdout
+
+                * standard input 
+                    stdin
+
+                * standard error
+                    stderr
+
+*/
+
+/*
+    Redirection
+
+                * |
+                    read from stdout
+                * >
+                    write stdout to file
+                * >>
+                    appen stdout to file
+                * <
+                    read from stdin
+                * 2>&1
+                    redirect both stderr and stdout
+
+*/
+
