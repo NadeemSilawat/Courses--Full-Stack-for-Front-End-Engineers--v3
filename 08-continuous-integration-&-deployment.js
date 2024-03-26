@@ -234,5 +234,30 @@ Exercise ->> 1. Find running node processess
 */                
 
 
+                    /******* Subdomains *******/
+
+/*
+Exercise : 1. Create a subdomain called "blog"
+                a. Create an A record
+                b. Create a Server
+            
+            2. Updating nginx.conf
+            3. Restart nginx
+
+
+
+
+Sudomain
+        
+        server{
+            listen 80;
+            listen [::]:80;
+            server_name blog.<your_domain>;
+
+            location / {
+                proxy-pass http://localhost:3000;
+            }
+        }
+*/                    
 
 
