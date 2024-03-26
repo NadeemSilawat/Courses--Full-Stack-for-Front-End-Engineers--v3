@@ -192,5 +192,47 @@ Exercise ->> 1. Find running node processess
 */                
 
 
+                /******* Nginx Redirectoin & Gzip ***********/
+
+/*
+    * Nginx redirection 
+
+ redirect 
+------------
+
+            location /help{
+                return 301 https://developer.mozilla.org/en-US/;
+            }
+
+
+ Gizp
+-------
+
+        ----> /etc/nginx/nginx.conf
+
+        ##
+        # Gzip Settings
+        ##
+
+        gzip on;
+
+        # gzip_vary on;
+        # gzip_proxied any;
+        # gzip_conp_level 6;
+        # gzip_buffers 16 8k;
+        # gzip_http_version 1.1;
+
+        
+  ----> 00001110100000
+            4 -> 0
+            3 -> 1
+            1 -> 0 
+            1 -> 1
+            5 -> 0
+
+
+*/                
+
+
 
 
