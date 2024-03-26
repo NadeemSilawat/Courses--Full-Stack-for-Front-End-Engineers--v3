@@ -154,3 +154,43 @@ website :- SPINNAKER => spin up 500 clusters, with a button and they are all con
 // Example :    echo hi > foo
 //ans :         cat foo    --> hi
 
+
+
+                /****** find & grep ********/
+
+/*
+    * find --> Search file names
+
+    * grep --> Search file contents 
+
+
+Finding ----->    $ find /bar -name foo.txt
+                find -----> find
+                /bar  -------> directory name
+                -name ----> option
+                foo.txt   ----> search string
+
+Exercise ->> 1. Find all log files in var/log/
+                    find /var/log -type f -name "*.log"
+
+             2. Find all directories with the name log 
+                    find / -type d -name log 
+
+
+
+grep ---------->  $ grep -i 'jem' /var/www
+                    grep -----> grep 
+                    -i  -------> options 
+                    'jem' -------> search expression
+                    /var/www ----> filename or directory name
+
+             -----> $ zgrep FILE         search inside gzip file       
+
+Exercise ->> 1. Find running node processess
+                    ps aux | grep node
+
+*/                
+
+
+
+
