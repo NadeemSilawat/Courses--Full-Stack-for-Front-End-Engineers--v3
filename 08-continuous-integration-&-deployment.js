@@ -151,3 +151,6 @@ website :- SPINNAKER => spin up 500 clusters, with a button and they are all con
 
 */
 
+// Example :    echo hi > foo
+//ans :         cat foo    --> hi
+
