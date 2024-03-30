@@ -45,3 +45,22 @@ Exercise : websocket
 
 
     */    
+
+
+//Databases 
+
+        /*
+            Relational
+         -----------------
+                * SQL
+                * Table
+                * Related data
+                * Strict structure
+                
+            Non Relational 
+          ----------------
+
+                * NoSQL 
+                * Data agnostic
+                * Loose structure
+        */
