@@ -206,5 +206,25 @@ load balancers :- Load balancing is the method of distributing network traffic e
 */    
 
 
+        //      Adding a Load Balancer
+        
+        
+
+/*
+terminal
+    in /var/www/app/
+
+    sudo vi /etc/nginx/nginx.conf
+    sudo vi /etc/nginx/sites-enabled/fsfe
+    sudo nginx -t
+    sudo service nginx restart
+    sudo vi /etc/nginx/nginx.conf
+    sudo vi /etc/nginx/sites-enabled/fsfe
+    sudo nginx -t
+    sudo service nginx restart
+    sudo tail -f /var/log/nginx/access.log
+*/        
+
+
 
 
