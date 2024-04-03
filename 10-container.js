@@ -108,3 +108,103 @@
 
 */    
 
+    //  Orchestration & Load Balancing
+
+/*
+    Defination:-
+  Orchestration :- In system administration, orchestration is the automated configuring,
+                     coordinating, and managing of computer systems and software.
+                      Many tools exist to automate server configuration and management, including Kubernetes,
+                       Ansible, Puppet, Salt, Terraform, and AWS CloudFormation.
+
+    Kubernetes          => Docker Swarm
+      "K8s"             => Amazon EKS
+                        => Apache Mesos
+                        => AKS
+
+
+    Definatiion:-
+load balancers :- Load balancing is the method of distributing network traffic equally across a pool of resources that support an application.
+                 Modern applications must process millions of users simultaneously and return the correct text, videos, images, and other data to
+                  each user in a fast and reliable manner.
+
+
+---request--->                  server 90%
+        Load balancer --->  server 15%
+      
+        
+// Schedulling algorithms :-
+    => Round Robin*
+    => IP Hashing
+    => Random Choice
+    => Least Connections
+    => Least Load
+    
+
+// top
+    1.) Display running processes
+    // htop
+    
+---->Load balancers
+
+    upstream backend {
+        server backend1.example.com;
+        server backend2.example.com;
+        server 192.0.0.1 backup;
+    }    
+
+    server {
+        location / {
+            proxy_pass http://backend;
+        }
+    }
+
+    //...
+
+    upstream backend {
+        least_conn;
+        server backend1.example.com;
+        server backend2.example.com;
+    } 
+
+----> https://docs/nginx.xom/nginx/admin-guide/load-balancer/http-load-balancer/// Schedulling algorithms :-
+    => Round Robin*
+    => IP Hashing
+    => Random Choice
+    => Least Connections
+    => Least Load
+    
+-----> top
+    1.) Display running processes
+    // htop
+    
+    
+----> Load balancers
+
+    upstream backend {
+        server backend1.example.com;
+        server backend2.example.com;
+        server 192.0.0.1 backup;
+    }    
+
+    server {
+        location / {
+            proxy_pass http://backend;
+        }
+    }
+
+    //...
+
+    upstream backend {
+        least_conn;
+        server backend1.example.com;
+        server backend2.example.com;
+    } 
+
+----> https://docs/nginx.xom/nginx/admin-guide/load-balancer/http-load-balancer/
+
+*/    
+
+
+
+
